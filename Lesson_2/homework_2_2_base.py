@@ -37,6 +37,3 @@ class Wariors():
     def get_move(self): # print out move
         return f'{self.name} move: {self.move}'
 
-
-
-

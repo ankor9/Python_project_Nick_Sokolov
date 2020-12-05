@@ -13,7 +13,7 @@ class Doctor(Wariors):
     def tell_function(self):
         print(f'I am a doctor!')
         self.doc_gave_health = 0
-    def gave_health(self): # gave health by doctor
+    def gave_health(self): # health given by doctor
         self.doc_gave_health += 1
     def get_doc_gave_health(self): # print out health given by doctor
         return f'{self.name} gave health: {self.doc_gave_health}'
