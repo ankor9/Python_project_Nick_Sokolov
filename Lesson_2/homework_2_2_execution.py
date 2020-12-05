@@ -29,6 +29,7 @@ class Infantryman(Wariors):
 
 archer_1 = Archer("First archer")
 doctor_1 = Doctor("First doctor")
+doctor_2 = Doctor("Second doctor")
 infantryman_1 = Infantryman("First infantryman")
 
 archer_1.say_name()
@@ -51,6 +52,17 @@ print(doctor_1.get_health())
 print(doctor_1.get_move())
 print(doctor_1.get_doc_gave_health(), "\n")
 
+doctor_2.say_name()
+doctor_2.tell_function()
+doctor_2.health_up()
+doctor_2.health_up()
+doctor_2.move_up()
+doctor_2.move_up()
+doctor_2.gave_health()
+print(doctor_2.get_health())
+print(doctor_2.get_move())
+print(doctor_2.get_doc_gave_health(), "\n")
+
 infantryman_1.say_name()
 infantryman_1.tell_function()
 infantryman_1.health_up()
@@ -63,4 +75,3 @@ infantryman_1.infantryman_strike()
 print(infantryman_1.get_health())
 print(infantryman_1.get_move())
 print(infantryman_1.get_strike(), "\n")
-
