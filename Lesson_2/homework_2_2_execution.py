@@ -1,4 +1,4 @@
-from homework_2_2_base import Wariors
+from homework_2_2_base import *
 
 class Archer(Wariors):
     def tell_function(self):

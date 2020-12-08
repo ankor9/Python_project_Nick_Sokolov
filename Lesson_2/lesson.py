@@ -1,4 +1,4 @@
-from general import Transport
+from general import *
 
 class Ship(Transport):
     def swim(self):
